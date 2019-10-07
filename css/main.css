@@ -29,3 +29,35 @@ html {
   left: 50%;
   transform: translateX(-50%);
 }
+
+.polaroid:hover {
+  transform: rotate(0);
+  box-shadow: 1px 10px 20px black;
+}
+
+figure:nth-child(2){
+  top: 150px;
+  left: 200px;
+  transform: rotate(32deg);
+  z-index: 3;
+}
+
+figure:first-of-type {
+  top: 90px;
+  left: 200px;
+  transform: rotate(-15deg);
+  z-index:1;
+}
+
+figure:last-of-type {
+  top: 100px;
+  left: 390px;
+  transform: rotate(32deg);
+  z-index: 2;
+}
+
+figure:first-of-type:hover,
+figure:last-of-type:hover,
+figure:nth-child(2):hover {
+  z-index: 100;
+}
