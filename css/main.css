@@ -35,7 +35,7 @@ html {
   box-shadow: 1px 10px 20px black;
 }
 
-figure:nth-child(2){
+figure:nth-child(2) {
   top: 150px;
   left: 200px;
   transform: rotate(32deg);
@@ -46,7 +46,7 @@ figure:first-of-type {
   top: 90px;
   left: 200px;
   transform: rotate(-15deg);
-  z-index:1;
+  z-index: 1;
 }
 
 figure:last-of-type {
