@@ -12,6 +12,8 @@ html {
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
+  position: absolute;
+  transition: all .2s linear;
 }
 
 .polaroid > img {
@@ -22,4 +24,8 @@ html {
 .polaroid > figcaption {
   color: #fff;
   text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  bottom: 1.3em;
+  left: 50%;
+  transform: translateX(-50%);
 }
